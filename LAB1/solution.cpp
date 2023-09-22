@@ -1,6 +1,6 @@
 #include "solution.hpp"
 
-string Solution::replace(string &text, const int &n, const char &old_value, const char &new_value)
+std::string Solution::replace(std::string &text, const int &n, const char &old_value, const char &new_value)
 {
     if (n <= 0)
     {

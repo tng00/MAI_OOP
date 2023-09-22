@@ -1,5 +1,7 @@
 #include "solution.cpp"
 
+using namespace std;
+
 int main()
 {
     string text;
