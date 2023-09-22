@@ -272,6 +272,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB1.dir\build.make CMakeFiles/LAB1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+solution.obj: solution.cpp.obj
+.PHONY : solution.obj
+
+# target to build an object file
+solution.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB1.dir\build.make CMakeFiles/LAB1.dir/solution.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/solution.cpp.obj
+.PHONY : solution.cpp.obj
+
+solution.i: solution.cpp.i
+.PHONY : solution.i
+
+# target to preprocess a source file
+solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB1.dir\build.make CMakeFiles/LAB1.dir/solution.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/solution.cpp.i
+.PHONY : solution.cpp.i
+
+solution.s: solution.cpp.s
+.PHONY : solution.s
+
+# target to generate assembly for a file
+solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB1.dir\build.make CMakeFiles/LAB1.dir/solution.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/solution.cpp.s
+.PHONY : solution.cpp.s
+
 test.obj: test.cpp.obj
 .PHONY : test.obj
 
@@ -318,6 +345,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... solution.obj
+	@echo ... solution.i
+	@echo ... solution.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
