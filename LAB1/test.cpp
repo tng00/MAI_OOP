@@ -1,6 +1,6 @@
 #include "googletest/googlemock/include/gmock/gmock.h"
 #include "googletest/googletest/include/gtest/gtest.h"
-#include "solution.hpp"
+#include "solution.cpp"
 
 using namespace std;
 
