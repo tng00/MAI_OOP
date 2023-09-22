@@ -273,7 +273,7 @@ CMakeFiles/test1.dir/test.cpp.obj: C:\OOP\LAB1\test.cpp \
  C:/OOP/LAB1/googletest/googlemock/include/gmock/gmock-more-matchers.h \
  C:/OOP/LAB1/googletest/googlemock/include/gmock/gmock-nice-strict.h \
  C:\OOP\LAB1\googletest/googletest/include/gtest/gtest.h \
- C:\OOP\LAB1\solution.cpp \
+ C:\OOP\LAB1\solution.hpp \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/stdc++.h \
  C:/msys64/mingw64/include/c++/13.2.0/cfloat \
  C:/msys64/mingw64/include/c++/13.2.0/ciso646 \
@@ -372,4 +372,5 @@ CMakeFiles/test1.dir/test.cpp.obj: C:\OOP\LAB1\test.cpp \
  C:/msys64/mingw64/include/c++/13.2.0/bits/fs_path.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/fs_dir.h \
  C:/msys64/mingw64/include/c++/13.2.0/bits/fs_ops.h \
- C:/msys64/mingw64/include/c++/13.2.0/memory_resource
+ C:/msys64/mingw64/include/c++/13.2.0/memory_resource \
+ C:\OOP\LAB1\solution.cpp

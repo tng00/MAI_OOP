@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="2096"
 	>
 	<Testing>
-		<StartDateTime>Sep 22 10:04 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
-		<StartTestTime>1695366265</StartTestTime>
+		<StartDateTime>Sep 22 10:45 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1695368705</StartTestTime>
 		<TestList>
 			<Test>./BASIC</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>C:\OOP\LAB1\build\test1.exe</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0717817</Value>
+					<Value>0.0639064</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkj8PgjAQxfd+ihtlgGgkbg7+i4OJGoguhJgKpxJLS2jRr28Rg2K08KY27/XXu/aCca0QvILzhJ9hBAqlknDKRQqD5wZkkSh0SGDXCmHJxJGyykd+S3LBU+Q6i8ousq9wAzq7YHT1MGM0QhKAt1vDU2HDcfwkzVgZqLRZ/Q5Arw+ptAygKY2uMtMraYC9Q+3A9aFvIGm3HTE5Sv1YGxbvKStMTTaDXWobGmsbdkG4RoRbIzp9cZUGJRRlFuk2RAppbsfizknwOaN/ZxNyyp3mRbqD7cT3F/Oyv9dBhzwAC8nfBQ==</Value>
+					<Value encoding="base64" compression="gzip">eJyNkj8PgjAQxfd+iht1gGgwbg7+i4OJGoguhJiKpxLKldCiX98qhojRypvavNdf79oLR7Ui8EuihM4wBI1KKzgVMoP+cwOqTDS6LHRqRbAQ8sBF5SNdk0JShmSyqJ0y/wg3oNMLxqmPueAxshD87QqeihqOGyRZLh6BSuvl9wB0epCprgU0EZxSlZulstDeUv+Rq33PgjLuf8T4oMxzrcVxx0Vpa7MZbFObZ63Na4MYWBGDGtHqk6s0aKm56LJ2Y6SRF85R3oiF71P6czqh4OQ2LzIdbMZBMJ89+nsddNkdefPf8w==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Sep 22 10:04 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
-		<EndTestTime>1695366265</EndTestTime>
+		<EndDateTime>Sep 22 10:45 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1695368705</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

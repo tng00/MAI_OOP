@@ -7,21 +7,9 @@
 },
 {
   "directory": "C:/OOP/LAB1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\LAB1.dir\\solution.cpp.obj -c C:\\OOP\\LAB1\\solution.cpp",
-  "file": "C:/OOP/LAB1/solution.cpp",
-  "output": "CMakeFiles/LAB1.dir/solution.cpp.obj"
-},
-{
-  "directory": "C:/OOP/LAB1/build",
   "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test1.dir\\test.cpp.obj -c C:\\OOP\\LAB1\\test.cpp",
   "file": "C:/OOP/LAB1/test.cpp",
   "output": "CMakeFiles/test1.dir/test.cpp.obj"
-},
-{
-  "directory": "C:/OOP/LAB1/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\test1.dir\\solution.cpp.obj -c C:\\OOP\\LAB1\\solution.cpp",
-  "file": "C:/OOP/LAB1/solution.cpp",
-  "output": "CMakeFiles/test1.dir/solution.cpp.obj"
 },
 {
   "directory": "C:/OOP/LAB1/build/googletest/googlemock",

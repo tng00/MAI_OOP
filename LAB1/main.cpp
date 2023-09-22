@@ -1,4 +1,4 @@
-#include "solution.cpp"
+#include "solution.hpp"
 
 int main()
 {
@@ -7,5 +7,6 @@ int main()
     char old_value, new_value;
     getline(cin, text);
     cin >> n >> old_value >> new_value;
-    cout << Solution::replace(text, n, old_value, new_value);
+    Solution solution;
+    cout << solution.replace(text, n, old_value, new_value);
 }

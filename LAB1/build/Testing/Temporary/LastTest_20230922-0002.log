@@ -1,10 +1,10 @@
-Start testing: Sep 22 10:04 RTZ 2 (çèìà)
+Start testing: Sep 22 10:45 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/1 Testing: BASIC
 1/1 Test: BASIC
 Command: "C:/OOP/LAB1/build/test1.exe"
 Directory: C:/OOP/LAB1/build
-"BASIC" start time: Sep 22 10:04 RTZ 2 (çèìà)
+"BASIC" start time: Sep 22 10:45 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -12,8 +12,8 @@ Output:
 [----------] 6 tests from CheckReplace
 [ RUN      ] CheckReplace.Simple
 [       OK ] CheckReplace.Simple (0 ms)
-[ RUN      ] CheckReplace.Backspaces
-[       OK ] CheckReplace.Backspaces (0 ms)
+[ RUN      ] CheckReplace.Blankspaces
+[       OK ] CheckReplace.Blankspaces (0 ms)
 [ RUN      ] CheckReplace.N_0
 [       OK ] CheckReplace.N_0 (0 ms)
 [ RUN      ] CheckReplace.AbsentOldValue
@@ -28,11 +28,11 @@ Output:
 [==========] 6 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 6 tests.
 <end of output>
-Test time =   0.07 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"BASIC" end time: Sep 22 10:04 RTZ 2 (çèìà)
+"BASIC" end time: Sep 22 10:45 RTZ 2 (çèìà)
 "BASIC" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 22 10:04 RTZ 2 (çèìà)
+End testing: Sep 22 10:45 RTZ 2 (çèìà)

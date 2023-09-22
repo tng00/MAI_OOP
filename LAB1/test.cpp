@@ -1,43 +1,49 @@
 #include "googletest/googlemock/include/gmock/gmock.h"
 #include "googletest/googletest/include/gtest/gtest.h"
-#include "solution.cpp"
+#include "solution.hpp"
 
 using namespace std;
 
 TEST(CheckReplace, Simple)
 {
     string text = "ab ab";
-    ASSERT_TRUE(Solution::replace(text, 2, 'b', 'c') == "ab ac");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 2, 'b', 'c') == "ab ac");
 }
 
-TEST(CheckReplace, Backspaces)
+TEST(CheckReplace, Blankspaces)
 {
     string text = "   ";
-    ASSERT_TRUE(Solution::replace(text, 1, ' ', '.') == "...");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 1, ' ', '.') == "...");
 }
 
 TEST(CheckReplace, N_0)
 {
     string text = "abc";
-    ASSERT_TRUE(Solution::replace(text, 0, 'a', 'b') == "abc");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 0, 'a', 'b') == "abc");
 }
 
 TEST(CheckReplace, AbsentOldValue)
 {
     string text = "abc";
-    ASSERT_TRUE(Solution::replace(text, 2, 'd', 'e') == "abc");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 2, 'd', 'e') == "abc");
 }
 
 TEST(CheckReplace, N_3)
 {
     string text = "aaabbbccc";
-    ASSERT_TRUE(Solution::replace(text, 3, 'a', 'x') == "aaxbbbccc");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 3, 'a', 'x') == "aaxbbbccc");
 }
 
 TEST(CheckReplace, N_4)
 {
     string text = "abcabcabcabc";
-    ASSERT_TRUE(Solution::replace(text, 4, 'a', 'x') == "abcabcabcxbc");
+    Solution solution;
+    ASSERT_TRUE(solution.replace(text, 4, 'a', 'x') == "abcabcabcxbc");
 }
 
 

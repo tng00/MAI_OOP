@@ -1,4 +1,5 @@
 CMakeFiles/LAB1.dir/solution.cpp.obj: C:\OOP\LAB1\solution.cpp \
+ C:\OOP\LAB1\solution.hpp \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/stdc++.h \
  C:/msys64/mingw64/include/c++/13.2.0/cassert \
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
