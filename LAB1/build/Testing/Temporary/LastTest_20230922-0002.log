@@ -1,0 +1,46 @@
+Start testing: Sep 22 04:00 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/1 Testing: BASIC
+1/1 Test: BASIC
+Command: "C:/OOP/LAB1/build/test1.exe"
+Directory: C:/OOP/LAB1/build
+"BASIC" start time: Sep 22 04:00 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from CheckReplace
+[ RUN      ] CheckReplace.Subtest_1
+[       OK ] CheckReplace.Subtest_1 (0 ms)
+[ RUN      ] CheckReplace.Subtest_2
+[       OK ] CheckReplace.Subtest_2 (0 ms)
+[ RUN      ] CheckReplace.Subtest_3
+[       OK ] CheckReplace.Subtest_3 (0 ms)
+[ RUN      ] CheckReplace.Subtest_4
+[       OK ] CheckReplace.Subtest_4 (0 ms)
+[ RUN      ] CheckReplace.Subtest_5
+[       OK ] CheckReplace.Subtest_5 (0 ms)
+[ RUN      ] CheckReplace.Subtest_6
+[       OK ] CheckReplace.Subtest_6 (0 ms)
+[ RUN      ] CheckReplace.Subtest_7
+[       OK ] CheckReplace.Subtest_7 (0 ms)
+[ RUN      ] CheckReplace.Subtest_8
+[       OK ] CheckReplace.Subtest_8 (0 ms)
+[ RUN      ] CheckReplace.Subtest_9
+[       OK ] CheckReplace.Subtest_9 (0 ms)
+[ RUN      ] CheckReplace.Subtest_10
+[       OK ] CheckReplace.Subtest_10 (0 ms)
+[----------] 10 tests from CheckReplace (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"BASIC" end time: Sep 22 04:00 RTZ 2 (çèìà)
+"BASIC" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 22 04:00 RTZ 2 (çèìà)
