@@ -146,7 +146,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "LAB1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LAB1-Debug-1eeb56b59eb339d8ef44.json",
+					"jsonFile" : "target-LAB1-Debug-b9191659bd89c86dced1.json",
 					"name" : "LAB1",
 					"projectIndex" : 0
 				},
@@ -181,7 +181,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test1-Debug-30d057efebe7a0723922.json",
+					"jsonFile" : "target-test1-Debug-20ce88bea642e710b76c.json",
 					"name" : "test1",
 					"projectIndex" : 0
 				}
