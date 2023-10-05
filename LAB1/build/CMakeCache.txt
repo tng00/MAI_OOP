@@ -566,7 +566,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0/python3.11.exe][cfound components: Interpreter ][v3.11.5()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0/python3.11.exe][cfound components: Interpreter ][v3.11.6()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
@@ -576,10 +576,10 @@ _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
-_Python3_EXECUTABLE:INTERNAL=C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0/python3.11.exe
+_Python3_EXECUTABLE:INTERNAL=C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0/python3.11.exe
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;5;64;32;;cp311-win_amd64;;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0\Lib\site-packages;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0\Lib\site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=5b585b003665257519b4ade8fb5c20ec
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;6;64;32;;cp311-win_amd64;;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\site-packages;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=47d2d49c6fe1ec1431cd467d31b00c1d
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 cmake_package_name:INTERNAL=GTest
