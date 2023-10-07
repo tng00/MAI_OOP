@@ -97,22 +97,22 @@
 				{
 					"backtrace" : 7,
 					"isSystem" : true,
-					"path" : "C:/OOP/LAB1/googletest/googlemock/include"
+					"path" : "C:/OOP/LAB2/googletest/googlemock/include"
 				},
 				{
 					"backtrace" : 7,
 					"isSystem" : true,
-					"path" : "C:/OOP/LAB1/googletest/googlemock"
+					"path" : "C:/OOP/LAB2/googletest/googlemock"
 				},
 				{
 					"backtrace" : 7,
 					"isSystem" : true,
-					"path" : "C:/OOP/LAB1/googletest/googletest/include"
+					"path" : "C:/OOP/LAB2/googletest/googletest/include"
 				},
 				{
 					"backtrace" : 7,
 					"isSystem" : true,
-					"path" : "C:/OOP/LAB1/googletest/googletest"
+					"path" : "C:/OOP/LAB2/googletest/googletest"
 				}
 			],
 			"language" : "CXX",

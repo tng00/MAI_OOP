@@ -7,5 +7,5 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 enable_testing()
 add_executable(test1 test.cpp)
-target_link_libraries(test1 gtest_main gmock_main)
+target_link_libraries(test1 gtest_main)
 add_test(NAME BASIC COMMAND test1)

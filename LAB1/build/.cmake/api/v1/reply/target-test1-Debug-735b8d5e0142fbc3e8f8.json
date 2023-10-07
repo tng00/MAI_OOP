@@ -110,11 +110,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gmock::@d68da25237a7ca2351af"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "gmock_main::@d68da25237a7ca2351af"
+			"id" : "gtest_main::@f95b5c00bd49b3b4698d"
 		},
 		{
 			"backtrace" : 2,
@@ -122,7 +118,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@f95b5c00bd49b3b4698d"
+			"id" : "gmock::@d68da25237a7ca2351af"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gmock_main::@d68da25237a7ca2351af"
 		}
 	],
 	"id" : "test1::@6890427a1f51a3e7e1df",
