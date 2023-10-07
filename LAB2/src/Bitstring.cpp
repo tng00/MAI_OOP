@@ -1,12 +1,11 @@
 #include "../include/BitString.hpp"
 
-
 BitString::BitString() : size(1)
 {
     data = new unsigned char[size]();
 }
 
-BitString::BitString(size_t size)
+BitString::BitString(const size_t &size)
 {
     this->size = size;
     data = new unsigned char[size]();
@@ -19,6 +18,18 @@ BitString::BitString(const BitString &other)
     for (size_t i = 0; i < size; ++i)
     {
         data[i] = other.data[i];
+    }
+}
+
+BitString::BitString(const std::initializer_list<unsigned char> &t)
+{
+    size = t.size();
+    data = new unsigned char[size]();
+
+    size_t i = 0;
+    for (const unsigned char &value : t)
+    {
+        data[i++] = value;
     }
 }
 

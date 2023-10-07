@@ -10,8 +10,9 @@ private:
 
 public:
     BitString();
-    BitString(size_t size);
+    BitString(const size_t &size);
     BitString(const BitString &other);
+    BitString(const std::initializer_list<unsigned char> &t);
     ~BitString();
 
     BitString &operator=(const BitString &other);
@@ -22,7 +23,7 @@ public:
 
     bool operator==(const BitString &other) const;
     bool operator!=(const BitString &other) const;
-    
+
     size_t getSize() const;
     size_t operator[](size_t index) const;
     void setBit(size_t index, bool value);

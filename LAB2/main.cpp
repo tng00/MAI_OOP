@@ -3,6 +3,10 @@
 
 int main()
 {
+    BitString bitString = {1, 0, 1, 1, 0};
+    std::cout << "bitString: ";
+    bitString.print();
+    
     BitString bitString1(6);
     BitString bitString2(6);
 
