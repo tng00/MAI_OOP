@@ -2,30 +2,40 @@
 #include <iostream>
 #include <stdexcept>
 
-class BitString
-{
+class BitString {
 private:
-    unsigned char *data;
-    size_t size;
+    unsigned char *_data;
+    size_t _size;
 
 public:
     BitString();
-    BitString(const size_t &size);
+    BitString(const size_t &size, unsigned char t = '0');
+    BitString(const std::string &t);
     BitString(const BitString &other);
+    BitString(BitString &&other) noexcept;
+    BitString &operator=(const BitString &other);
+    BitString &operator=(BitString &&other);
     BitString(const std::initializer_list<unsigned char> &t);
     ~BitString();
 
-    BitString &operator=(const BitString &other);
+    BitString &operator+=(const BitString &other);
+    BitString operator+(const BitString &other) const;
+    BitString &operator-=(const BitString &other);
+    BitString operator-(const BitString &other) const;
+
     BitString operator&(const BitString &other) const;
     BitString operator|(const BitString &other) const;
     BitString operator^(const BitString &other) const;
     BitString operator~() const;
 
+    bool operator<(const BitString &other) const;
+    bool operator>(const BitString &other) const;
     bool operator==(const BitString &other) const;
     bool operator!=(const BitString &other) const;
 
     size_t getSize() const;
-    size_t operator[](size_t index) const;
-    void setBit(size_t index, bool value);
-    void print() const;
+    unsigned char getBit(size_t index) const;
+    void setBit(size_t index, unsigned char value);
+    void shrink();
+    friend std::ostream &operator<<(std::ostream &out, const BitString &b);
 };

@@ -92,7 +92,6 @@ test2_EXTERNAL_OBJECTS =
 
 test2.exe: CMakeFiles/test2.dir/test/test.cpp.obj
 test2.exe: CMakeFiles/test2.dir/build.make
-test2.exe: lib/libgtest.a
 test2.exe: lib/libgtest_main.a
 test2.exe: lib/libgtest.a
 test2.exe: CMakeFiles/test2.dir/linkLibs.rsp

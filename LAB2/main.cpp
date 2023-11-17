@@ -1,54 +1,41 @@
 #include <bits/stdc++.h>
 #include "src/BitString.cpp"
 
-int main()
-{
-    BitString bitString = {1, 0, 1, 1, 0};
-    std::cout << "bitString: ";
-    bitString.print();
-    
-    BitString bitString1(6);
-    BitString bitString2(6);
+int main() {
+    BitString bitString = {'0', '0', '1', '0', '0', '1'};
+    std::cout << "bitString: " << bitString << std::endl;
 
-    bitString1.setBit(1, true);
-    bitString1.setBit(4, true);
+    BitString bitString1(bitString);
+    bitString1 = bitString;
+    BitString bitString2("110001010101");
 
-    bitString2.setBit(2, true);
-    bitString2.setBit(4, true);
-    bitString2.setBit(5, true);
+    bitString1.setBit(2, '1');
+    bitString1.setBit(3, '1');
+    bitString2.setBit(3, '1');
 
-    std::cout << "bitString1: ";
-    bitString1.print();
+    std::cout << "bitString1:  " << bitString1 << std::endl;
 
-    std::cout << "bitString2: ";
-    bitString2.print();
+    std::cout << "bitString2: " << bitString2 << std::endl;
 
-    BitString resultAnd = bitString1 & bitString2;
-    BitString resultOr = bitString1 | bitString2;
-    BitString resultXor = bitString1 ^ bitString2;
-    BitString resultNot = ~bitString1;
+    std::cout << "bitString1 + bitString2: " << (bitString1 + bitString2) << std::endl;
 
-    std::cout << "bitString1 & bitString2: ";
-    resultAnd.print();
+    std::cout << "bitString2 - bitString1: " << (bitString2 - bitString1) << std::endl;
 
-    std::cout << "bitString1 | bitString2: ";
-    resultOr.print();
+    std::cout << "bitString1 & bitString2: " << (bitString1 & bitString2) << std::endl;
 
-    std::cout << "bitString1 ^ bitString2: ";
-    resultXor.print();
+    std::cout << "bitString1 | bitString2: " << (bitString1 | bitString2) << std::endl;
 
-    std::cout << "~bitString1: ";
-    resultNot.print();
+    std::cout << "bitString1 ^ bitString2: " << (bitString1 ^ bitString2) << std::endl;
 
-    if (bitString1 == bitString2)
-    {
-        std::cout << "bitString1 equals bitString2" << '\n';
-    }
-    else
-    {
-        std::cout << "bitString1 not euqals bitString2" << '\n';
+    std::cout << "~bitString1: " << ~bitString1 << std::endl;
+
+    std::cout << "~bitString2: " << ~bitString2 << std::endl;
+
+    if (bitString1 == bitString2) {
+        std::cout << "bitString1 is equal bitString2" << std::endl;
+    } else {
+        std::cout << "bitString1 is not euqal bitString2" << std::endl;
     }
 
-    std::cout << "The value of bitString1[2]: " << bitString1[2] << '\n';
-
+    std::cout << "The value of bitString1[2]: " << bitString1.getBit(1) << std::endl;
 }

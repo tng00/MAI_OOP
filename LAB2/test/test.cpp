@@ -1,86 +1,206 @@
 #include "../googletest/googletest/include/gtest/gtest.h"
 #include "../src/BitString.cpp"
 
-TEST(BitStringTest, ConstructorsAndSize)
-{
-    BitString bitString1;
-    EXPECT_EQ(bitString1.getSize(), 1);
-
-    BitString bitString2(5);
-    EXPECT_EQ(bitString2.getSize(), 5);
+TEST(BitStringTest, DefaultConstructor) {
+    BitString b;
+    EXPECT_EQ(b.getSize(), 1);
 }
 
-TEST(BitStringTest, BitwiseOperators)
-{
-    BitString bitString1(5);
-    bitString1.setBit(0, true);
-    bitString1.setBit(2, true);
-
-    BitString bitString2(5);
-    bitString2.setBit(1, true);
-    bitString2.setBit(3, true);
-
-    BitString resultAnd = bitString1 & bitString2;
-    EXPECT_EQ(resultAnd[0], false);
-    EXPECT_EQ(resultAnd[1], false);
-    EXPECT_EQ(resultAnd[2], false);
-    EXPECT_EQ(resultAnd[3], false);
-    EXPECT_EQ(resultAnd[4], false);
-
-    BitString resultOr = bitString1 | bitString2;
-    EXPECT_EQ(resultOr[0], true);
-    EXPECT_EQ(resultOr[1], true);
-    EXPECT_EQ(resultOr[2], true);
-    EXPECT_EQ(resultOr[3], true);
-    EXPECT_EQ(resultOr[4], false);
-
-    BitString resultXor = bitString1 ^ bitString2;
-    EXPECT_EQ(resultXor[0], true);
-    EXPECT_EQ(resultXor[1], true);
-    EXPECT_EQ(resultXor[2], true);
-    EXPECT_EQ(resultXor[3], true);
-    EXPECT_EQ(resultXor[4], false);
-
-    BitString resultNot = ~bitString1;
-    EXPECT_EQ(resultNot[0], false);
-    EXPECT_EQ(resultNot[1], true);
-    EXPECT_EQ(resultNot[2], false);
-    EXPECT_EQ(resultNot[3], true);
-    EXPECT_EQ(resultNot[4], true);
+TEST(BitStringTest, SizeConstructor) {
+    BitString b(5, '1');
+    EXPECT_EQ(b.getSize(), 5);
+    EXPECT_EQ(b.getBit(0), '1');
 }
 
-TEST(BitStringTest, EqualityOperators)
-{
-    BitString bitString1(5);
-    bitString1.setBit(0, true);
-    bitString1.setBit(2, true);
-
-    BitString bitString2(5);
-    bitString2.setBit(0, true);
-    bitString2.setBit(2, true);
-
-    BitString bitString3(5);
-    bitString3.setBit(1, true);
-    bitString3.setBit(3, true);
-
-    EXPECT_TRUE(bitString1 == bitString2);
-    EXPECT_FALSE(bitString1 == bitString3);
-
-    EXPECT_FALSE(bitString1 != bitString2);
-    EXPECT_TRUE(bitString1 != bitString3);
+TEST(BitStringTest, StringConstructor) {
+    BitString b("1010");
+    EXPECT_EQ(b.getSize(), 4);
+    EXPECT_EQ(b.getBit(2), '1');
 }
 
-TEST(BitStringTest, SetBitAndOperatorIndex)
-{
-    BitString bitString(5);
-    bitString.setBit(0, true);
-    bitString.setBit(2, true);
+TEST(BitStringTest, CopyConstructor) {
+    BitString original(3, '1');
+    BitString copy(original);
+    EXPECT_EQ(copy.getSize(), 3);
+    EXPECT_EQ(copy.getBit(1), '1');
+}
 
-    EXPECT_EQ(bitString[0], true);
-    EXPECT_EQ(bitString[1], false);
-    EXPECT_EQ(bitString[2], true);
-    EXPECT_EQ(bitString[3], false);
-    EXPECT_EQ(bitString[4], false);
+TEST(BitStringTest, MoveConstructor) {
+    BitString original(5, '1');
+    BitString moved(std::move(original));
+
+    EXPECT_EQ(moved.getSize(), 5);
+    EXPECT_EQ(moved.getBit(3), '1');
+    EXPECT_EQ(original.getSize(), 0);
+}
+
+TEST(BitStringTest, CopyAssignmentOperator) {
+    BitString original(3, '1');
+    BitString copy;
+    copy = original;
+
+    EXPECT_EQ(copy.getSize(), 3);
+    EXPECT_EQ(copy.getBit(1), '1');
+}
+
+TEST(BitStringTest, MoveAssignmentOperator) {
+    BitString original(4, '1');
+    BitString moved;
+    moved = std::move(original);
+
+    EXPECT_EQ(moved.getSize(), 4);
+    EXPECT_EQ(moved.getBit(2), '1');
+    EXPECT_EQ(original.getSize(), 0);
+}
+
+TEST(BitStringTest, InitializerListConstructor) {
+    BitString b = {'1', '0', '1', '1'};
+    EXPECT_EQ(b.getSize(), 4);
+    EXPECT_EQ(b.getBit(2), '1');
+}
+
+TEST(BitStringTest, SumAssignOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    b1 += b2;
+
+    EXPECT_EQ(b1.getSize(), 4);
+    EXPECT_EQ(b1.getBit(0), '1');
+    EXPECT_EQ(b1.getBit(1), '0');
+    EXPECT_EQ(b1.getBit(2), '0');
+    EXPECT_EQ(b1.getBit(3), '0');
+}
+
+TEST(BitStringTest, SumOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    BitString result = b1 + b2;
+
+    EXPECT_EQ(result.getSize(), 4);
+    EXPECT_EQ(result.getBit(0), '1');
+    EXPECT_EQ(result.getBit(1), '0');
+    EXPECT_EQ(result.getBit(2), '0');
+    EXPECT_EQ(result.getBit(3), '0');
+}
+
+TEST(BitStringTest, SubtractionAssignmentOperator) {
+    BitString b1 = {'1', '0', '1', '1'};
+    BitString b2 = {'0', '1'};
+    b1 -= b2;
+
+    EXPECT_EQ(b1.getSize(), 4);
+    EXPECT_EQ(b1.getBit(0), '1');
+    EXPECT_EQ(b1.getBit(1), '0');
+    EXPECT_EQ(b1.getBit(2), '1');
+    EXPECT_EQ(b1.getBit(3), '0');
+}
+
+TEST(BitStringTest, SubtractionOperator) {
+    BitString b1 = {'1', '0', '1', '1'};
+    BitString b2 = {'0', '1'};
+    BitString result = b1 - b2;
+
+    EXPECT_EQ(result.getSize(), 4);
+    EXPECT_EQ(result.getBit(0), '1');
+    EXPECT_EQ(result.getBit(1), '0');
+    EXPECT_EQ(result.getBit(2), '1');
+    EXPECT_EQ(result.getBit(3), '0');
+}
+
+TEST(BitStringTest, BitwiseANDOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    BitString result = b1 & b2;
+
+    EXPECT_EQ(result.getSize(), 1);
+    EXPECT_EQ(result.getBit(0), '1');
+}
+
+TEST(BitStringTest, BitwiseOROperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    BitString result = b1 | b2;
+
+    EXPECT_EQ(result.getSize(), 3);
+    EXPECT_EQ(result.getBit(0), '1');
+    EXPECT_EQ(result.getBit(1), '1');
+    EXPECT_EQ(result.getBit(2), '1');
+}
+
+TEST(BitStringTest, BitwiseXOROperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    BitString result = b1 ^ b2;
+
+    EXPECT_EQ(result.getSize(), 3);
+    EXPECT_EQ(result.getBit(0), '1');
+    EXPECT_EQ(result.getBit(1), '1');
+    EXPECT_EQ(result.getBit(2), '0');
+}
+
+TEST(BitStringTest, BitwiseNOTOperator) {
+    BitString b = {'1', '0', '1'};
+    BitString result = ~b;
+
+    EXPECT_EQ(result.getSize(), 2);
+    EXPECT_EQ(result.getBit(0), '1');
+    EXPECT_EQ(result.getBit(1), '0');
+}
+
+TEST(BitStringTest, LessThanOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    EXPECT_FALSE(b1 < b2);
+}
+
+TEST(BitStringTest, GreaterThanOperator) {
+    BitString b1 = {'1', '1'};
+    BitString b2 = {'1', '0', '1'};
+    EXPECT_FALSE(b1 > b2);
+}
+
+TEST(BitStringTest, EqualityOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '0', '1'};
+    EXPECT_TRUE(b1 == b2);
+}
+
+TEST(BitStringTest, InequalityOperator) {
+    BitString b1 = {'1', '0', '1'};
+    BitString b2 = {'1', '1'};
+    EXPECT_TRUE(b1 != b2);
+}
+
+TEST(BitStringTest, GetSize) {
+    BitString b1;
+    EXPECT_EQ(b1.getSize(), 1);
+
+    BitString b2(5, '1');
+    EXPECT_EQ(b2.getSize(), 5);
+
+    BitString b3("010");
+    EXPECT_EQ(b3.getSize(), 2);
+}
+
+TEST(BitStringTest, GetBit) {
+    BitString b = {'1', '0', '1', '1'};
+    
+    EXPECT_EQ(b.getBit(0), '1');
+    EXPECT_EQ(b.getBit(1), '0');
+    EXPECT_EQ(b.getBit(2), '1');
+    EXPECT_EQ(b.getBit(3), '1');
+    
+    EXPECT_THROW(b.getBit(5), std::out_of_range);
+}
+
+TEST(BitStringTest, SetBit) {
+    BitString b = {'1', '0', '1', '1'};
+
+    b.setBit(0, '0');
+    EXPECT_EQ(b.getBit(0), '1');
+    EXPECT_EQ(b.getBit(1), '1');
+
+    EXPECT_THROW(b.setBit(5, '1'), std::out_of_range);
 }
 
 int main(int argc, char **argv)

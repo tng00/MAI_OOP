@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.0)
-
-project(OOP)
-
-
-add_subdirectory(LAB1)
-add_subdirectory(LAB2)
