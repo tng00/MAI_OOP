@@ -38,4 +38,8 @@ public:
     void setBit(size_t index, unsigned char value);
     void shrink();
     friend std::ostream &operator<<(std::ostream &out, const BitString &b);
+
+private:
+    static unsigned char get_char(size_t i) { return '0' + i; }
+    static int get_int(unsigned char i) { return i - '0'; }
 };

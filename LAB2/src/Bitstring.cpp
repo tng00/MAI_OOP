@@ -1,13 +1,5 @@
 #include "../include/BitString.hpp"
 
-unsigned char get_char(size_t i) {
-    return '0' + i;
-}
-
-int get_int(unsigned char i) {
-    return i - '0';
-}
-
 BitString::BitString() : _size(1) {
     _data = new unsigned char[_size];
     _data[0] = '0';
