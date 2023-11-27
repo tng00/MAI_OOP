@@ -1,1 +1,1 @@
--IC:/OOP/LAB2/googletest/googlemock/include -IC:/OOP/LAB2/googletest/googlemock -isystem C:/OOP/LAB2/googletest/googletest/include -isystem C:/OOP/LAB2/googletest/googletest
+-IC:/OOP/LAB3/googletest/googlemock/include -IC:/OOP/LAB3/googletest/googlemock -isystem C:/OOP/LAB3/googletest/googletest/include -isystem C:/OOP/LAB3/googletest/googletest

@@ -53,7 +53,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\OOP\LAB2
+CMAKE_SOURCE_DIR = C:\OOP\LAB3
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\OOP\build
@@ -62,8 +62,8 @@ CMAKE_BINARY_DIR = C:\OOP\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LAB2.dir/all
-all: CMakeFiles/test2.dir/all
+all: CMakeFiles/LAB3.dir/all
+all: CMakeFiles/test3.dir/all
 all: googletest/all
 .PHONY : all
 
@@ -72,8 +72,8 @@ preinstall: googletest/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LAB2.dir/clean
-clean: CMakeFiles/test2.dir/clean
+clean: CMakeFiles/LAB3.dir/clean
+clean: CMakeFiles/test3.dir/clean
 clean: googletest/clean
 .PHONY : clean
 
@@ -129,57 +129,57 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 .PHONY : googletest/googletest/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LAB2.dir
+# Target rules for target CMakeFiles/LAB3.dir
 
 # All Build rule for target.
-CMakeFiles/LAB2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\OOP\build\CMakeFiles --progress-num=1,2 "Built target LAB2"
-.PHONY : CMakeFiles/LAB2.dir/all
+CMakeFiles/LAB3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\OOP\build\CMakeFiles --progress-num=1,2 "Built target LAB3"
+.PHONY : CMakeFiles/LAB3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LAB2.dir/rule: cmake_check_build_system
+CMakeFiles/LAB3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\OOP\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LAB2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LAB3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\OOP\build\CMakeFiles 0
-.PHONY : CMakeFiles/LAB2.dir/rule
+.PHONY : CMakeFiles/LAB3.dir/rule
 
 # Convenience name for target.
-LAB2: CMakeFiles/LAB2.dir/rule
-.PHONY : LAB2
+LAB3: CMakeFiles/LAB3.dir/rule
+.PHONY : LAB3
 
 # clean rule for target.
-CMakeFiles/LAB2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/clean
-.PHONY : CMakeFiles/LAB2.dir/clean
+CMakeFiles/LAB3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/clean
+.PHONY : CMakeFiles/LAB3.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test2.dir
+# Target rules for target CMakeFiles/test3.dir
 
 # All Build rule for target.
-CMakeFiles/test2.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/test2.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\OOP\build\CMakeFiles --progress-num=11,12 "Built target test2"
-.PHONY : CMakeFiles/test2.dir/all
+CMakeFiles/test3.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/test3.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\OOP\build\CMakeFiles --progress-num=11,12 "Built target test3"
+.PHONY : CMakeFiles/test3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test2.dir/rule: cmake_check_build_system
+CMakeFiles/test3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\OOP\build\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\OOP\build\CMakeFiles 0
-.PHONY : CMakeFiles/test2.dir/rule
+.PHONY : CMakeFiles/test3.dir/rule
 
 # Convenience name for target.
-test2: CMakeFiles/test2.dir/rule
-.PHONY : test2
+test3: CMakeFiles/test3.dir/rule
+.PHONY : test3
 
 # clean rule for target.
-CMakeFiles/test2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/clean
-.PHONY : CMakeFiles/test2.dir/clean
+CMakeFiles/test3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/clean
+.PHONY : CMakeFiles/test3.dir/clean
 
 #=============================================================================
 # Target rules for target googletest/googlemock/CMakeFiles/gmock.dir

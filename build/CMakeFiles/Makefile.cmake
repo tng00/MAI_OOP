@@ -7,16 +7,16 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/OOP/LAB2/CMakeLists.txt"
-  "C:/OOP/LAB2/googletest/CMakeLists.txt"
-  "C:/OOP/LAB2/googletest/googlemock/CMakeLists.txt"
-  "C:/OOP/LAB2/googletest/googlemock/cmake/gmock.pc.in"
-  "C:/OOP/LAB2/googletest/googlemock/cmake/gmock_main.pc.in"
-  "C:/OOP/LAB2/googletest/googletest/CMakeLists.txt"
-  "C:/OOP/LAB2/googletest/googletest/cmake/Config.cmake.in"
-  "C:/OOP/LAB2/googletest/googletest/cmake/gtest.pc.in"
-  "C:/OOP/LAB2/googletest/googletest/cmake/gtest_main.pc.in"
-  "C:/OOP/LAB2/googletest/googletest/cmake/internal_utils.cmake"
+  "C:/OOP/LAB3/CMakeLists.txt"
+  "C:/OOP/LAB3/googletest/CMakeLists.txt"
+  "C:/OOP/LAB3/googletest/googlemock/CMakeLists.txt"
+  "C:/OOP/LAB3/googletest/googlemock/cmake/gmock.pc.in"
+  "C:/OOP/LAB3/googletest/googlemock/cmake/gmock_main.pc.in"
+  "C:/OOP/LAB3/googletest/googletest/CMakeLists.txt"
+  "C:/OOP/LAB3/googletest/googletest/cmake/Config.cmake.in"
+  "C:/OOP/LAB3/googletest/googletest/cmake/gtest.pc.in"
+  "C:/OOP/LAB3/googletest/googletest/cmake/gtest_main.pc.in"
+  "C:/OOP/LAB3/googletest/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.27.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.6/CMakeRCCompiler.cmake"
@@ -76,8 +76,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/LAB2.dir/DependInfo.cmake"
-  "CMakeFiles/test2.dir/DependInfo.cmake"
+  "CMakeFiles/LAB3.dir/DependInfo.cmake"
+  "CMakeFiles/test3.dir/DependInfo.cmake"
   "googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

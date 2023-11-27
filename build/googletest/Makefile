@@ -56,7 +56,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\OOP\LAB2
+CMAKE_SOURCE_DIR = C:\OOP\LAB3
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\OOP\build

@@ -52,7 +52,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\OOP\LAB2
+CMAKE_SOURCE_DIR = C:\OOP\LAB3
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\OOP\build
@@ -70,18 +70,18 @@ include googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
 googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: googletest/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp
-googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: C:/OOP/LAB2/googletest/googletest/src/gtest_main.cc
+googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: C:/OOP/LAB3/googletest/googletest/src/gtest_main.cc
 googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\OOP\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
-	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -MF CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c C:\OOP\LAB2\googletest\googletest\src\gtest_main.cc
+	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -MF CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c C:\OOP\LAB3\googletest\googletest\src\gtest_main.cc
 
 googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\OOP\LAB2\googletest\googletest\src\gtest_main.cc > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
+	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\OOP\LAB3\googletest\googletest\src\gtest_main.cc > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
 
 googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\OOP\LAB2\googletest\googletest\src\gtest_main.cc -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
+	cd /d C:\OOP\build\googletest\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\OOP\LAB3\googletest\googletest\src\gtest_main.cc -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -106,6 +106,6 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\OOP\LAB2 C:\OOP\LAB2\googletest\googletest C:\OOP\build C:\OOP\build\googletest\googletest C:\OOP\build\googletest\googletest\CMakeFiles\gtest_main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\OOP\LAB3 C:\OOP\LAB3\googletest\googletest C:\OOP\build C:\OOP\build\googletest\googletest C:\OOP\build\googletest\googletest\CMakeFiles\gtest_main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/depend
 

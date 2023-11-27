@@ -56,7 +56,7 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\OOP\LAB2
+CMAKE_SOURCE_DIR = C:\OOP\LAB3
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\OOP\build
@@ -171,30 +171,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LAB2
+# Target rules for targets named LAB3
 
 # Build rule for target.
-LAB2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LAB2
-.PHONY : LAB2
+LAB3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LAB3
+.PHONY : LAB3
 
 # fast build rule for target.
-LAB2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/build
-.PHONY : LAB2/fast
+LAB3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/build
+.PHONY : LAB3/fast
 
 #=============================================================================
-# Target rules for targets named test2
+# Target rules for targets named test3
 
 # Build rule for target.
-test2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test2
-.PHONY : test2
+test3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test3
+.PHONY : test3
 
 # fast build rule for target.
-test2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/build
-.PHONY : test2/fast
+test3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
+.PHONY : test3/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -253,7 +253,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -261,7 +261,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -269,7 +269,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB2.dir\build.make CMakeFiles/LAB2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LAB3.dir\build.make CMakeFiles/LAB3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 test/test.obj: test/test.cpp.obj
@@ -277,7 +277,7 @@ test/test.obj: test/test.cpp.obj
 
 # target to build an object file
 test/test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/test/test.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test.cpp.obj
 .PHONY : test/test.cpp.obj
 
 test/test.i: test/test.cpp.i
@@ -285,7 +285,7 @@ test/test.i: test/test.cpp.i
 
 # target to preprocess a source file
 test/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/test/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test.cpp.i
 .PHONY : test/test.cpp.i
 
 test/test.s: test/test.cpp.s
@@ -293,7 +293,7 @@ test/test.s: test/test.cpp.s
 
 # target to generate assembly for a file
 test/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/test/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test.cpp.s
 .PHONY : test/test.cpp.s
 
 # Help Target
@@ -309,12 +309,12 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... LAB2
+	@echo ... LAB3
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
-	@echo ... test2
+	@echo ... test3
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
