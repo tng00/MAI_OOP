@@ -1,5 +1,5 @@
-C:/OOP/build/CMakeFiles/LAB3.dir
-C:/OOP/build/CMakeFiles/test3.dir
+C:/OOP/build/CMakeFiles/LAB6.dir
+C:/OOP/build/CMakeFiles/test6.dir
 C:/OOP/build/CMakeFiles/test.dir
 C:/OOP/build/CMakeFiles/edit_cache.dir
 C:/OOP/build/CMakeFiles/rebuild_cache.dir

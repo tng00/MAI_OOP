@@ -153,7 +153,7 @@ TEST(Point, DefaultConstructor) {
     try {
         Point<int> a;
     } catch (std::range_error &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
 
@@ -165,7 +165,7 @@ TEST(Point, CoordConstructor) {
     try {
         Point a(100, 100);
     } catch (std::range_error &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << " throw exception:" << ex.what() << std::endl;
         test = false;
     }
 
@@ -178,7 +178,7 @@ TEST(Point, CopyConstructor) {
     try {
         Point b(a);
     } catch (std::range_error &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
 
@@ -193,7 +193,7 @@ TEST(Point, MoveConstructor) {
     try {
         Point b(Point(100, 100));
     } catch (std::range_error &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
 
@@ -259,7 +259,7 @@ TEST(Pentagon, SideConstructor) {
     try {
         Pentagon<double> p1(12);
     } catch (std::exception &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
     EXPECT_TRUE(true);
@@ -278,7 +278,7 @@ TEST(Pentagon, CopyConstructor) {
     try {
         Pentagon<double> p2(p1);
     } catch (std::exception &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
     EXPECT_TRUE(true);

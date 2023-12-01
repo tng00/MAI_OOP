@@ -259,7 +259,7 @@ TEST(Pentagon, SideConstructor) {
     try {
         Pentagon<double> p1(12);
     } catch (std::exception &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
     EXPECT_TRUE(true);
@@ -278,7 +278,7 @@ TEST(Pentagon, CopyConstructor) {
     try {
         Pentagon<double> p2(p1);
     } catch (std::exception &ex) {
-        std::cerr << " new throw exception:" << ex.what() << std::endl;
+        std::cerr << "throw exception:" << ex.what() << std::endl;
         test = false;
     }
     EXPECT_TRUE(true);
