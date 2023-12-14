@@ -1,8 +1,8 @@
-# Install script for directory: C:/OOP/LAB6
+# Install script for directory: C:/OOP/LAB7
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/LAB6")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/LAB7")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,110 +1,122 @@
 [
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\main.cpp.obj -c C:\\OOP\\LAB6\\main.cpp",
-  "file": "C:/OOP/LAB6/main.cpp",
-  "output": "CMakeFiles/LAB6.dir/main.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\main.cpp.obj -c C:\\OOP\\LAB7\\main.cpp",
+  "file": "C:/OOP/LAB7/main.cpp",
+  "output": "CMakeFiles/LAB7.dir/main.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\factory.cpp.obj -c C:\\OOP\\LAB6\\src\\factory.cpp",
-  "file": "C:/OOP/LAB6/src/factory.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/factory.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\factory.cpp.obj -c C:\\OOP\\LAB7\\src\\factory.cpp",
+  "file": "C:/OOP/LAB7/src/factory.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/factory.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\knight.cpp.obj -c C:\\OOP\\LAB6\\src\\knight.cpp",
-  "file": "C:/OOP/LAB6/src/knight.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/knight.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\fight.cpp.obj -c C:\\OOP\\LAB7\\src\\fight.cpp",
+  "file": "C:/OOP/LAB7/src/fight.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/fight.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\merchant.cpp.obj -c C:\\OOP\\LAB6\\src\\merchant.cpp",
-  "file": "C:/OOP/LAB6/src/merchant.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/merchant.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\knight.cpp.obj -c C:\\OOP\\LAB7\\src\\knight.cpp",
+  "file": "C:/OOP/LAB7/src/knight.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/knight.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\npc.cpp.obj -c C:\\OOP\\LAB6\\src\\npc.cpp",
-  "file": "C:/OOP/LAB6/src/npc.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/npc.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\merchant.cpp.obj -c C:\\OOP\\LAB7\\src\\merchant.cpp",
+  "file": "C:/OOP/LAB7/src/merchant.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/merchant.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\observer.cpp.obj -c C:\\OOP\\LAB6\\src\\observer.cpp",
-  "file": "C:/OOP/LAB6/src/observer.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/observer.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\npc.cpp.obj -c C:\\OOP\\LAB7\\src\\npc.cpp",
+  "file": "C:/OOP/LAB7/src/npc.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/npc.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB6.dir\\src\\squirrel.cpp.obj -c C:\\OOP\\LAB6\\src\\squirrel.cpp",
-  "file": "C:/OOP/LAB6/src/squirrel.cpp",
-  "output": "CMakeFiles/LAB6.dir/src/squirrel.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\observer.cpp.obj -c C:\\OOP\\LAB7\\src\\observer.cpp",
+  "file": "C:/OOP/LAB7/src/observer.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/observer.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\test\\test.cpp.obj -c C:\\OOP\\LAB6\\test\\test.cpp",
-  "file": "C:/OOP/LAB6/test/test.cpp",
-  "output": "CMakeFiles/test6.dir/test/test.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/LAB7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\LAB7.dir\\src\\squirrel.cpp.obj -c C:\\OOP\\LAB7\\src\\squirrel.cpp",
+  "file": "C:/OOP/LAB7/src/squirrel.cpp",
+  "output": "CMakeFiles/LAB7.dir/src/squirrel.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\factory.cpp.obj -c C:\\OOP\\LAB6\\src\\factory.cpp",
-  "file": "C:/OOP/LAB6/src/factory.cpp",
-  "output": "CMakeFiles/test6.dir/src/factory.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\test\\test.cpp.obj -c C:\\OOP\\LAB7\\test\\test.cpp",
+  "file": "C:/OOP/LAB7/test/test.cpp",
+  "output": "CMakeFiles/test7.dir/test/test.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\knight.cpp.obj -c C:\\OOP\\LAB6\\src\\knight.cpp",
-  "file": "C:/OOP/LAB6/src/knight.cpp",
-  "output": "CMakeFiles/test6.dir/src/knight.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\factory.cpp.obj -c C:\\OOP\\LAB7\\src\\factory.cpp",
+  "file": "C:/OOP/LAB7/src/factory.cpp",
+  "output": "CMakeFiles/test7.dir/src/factory.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\merchant.cpp.obj -c C:\\OOP\\LAB6\\src\\merchant.cpp",
-  "file": "C:/OOP/LAB6/src/merchant.cpp",
-  "output": "CMakeFiles/test6.dir/src/merchant.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\fight.cpp.obj -c C:\\OOP\\LAB7\\src\\fight.cpp",
+  "file": "C:/OOP/LAB7/src/fight.cpp",
+  "output": "CMakeFiles/test7.dir/src/fight.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\npc.cpp.obj -c C:\\OOP\\LAB6\\src\\npc.cpp",
-  "file": "C:/OOP/LAB6/src/npc.cpp",
-  "output": "CMakeFiles/test6.dir/src/npc.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\knight.cpp.obj -c C:\\OOP\\LAB7\\src\\knight.cpp",
+  "file": "C:/OOP/LAB7/src/knight.cpp",
+  "output": "CMakeFiles/test7.dir/src/knight.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\observer.cpp.obj -c C:\\OOP\\LAB6\\src\\observer.cpp",
-  "file": "C:/OOP/LAB6/src/observer.cpp",
-  "output": "CMakeFiles/test6.dir/src/observer.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\merchant.cpp.obj -c C:\\OOP\\LAB7\\src\\merchant.cpp",
+  "file": "C:/OOP/LAB7/src/merchant.cpp",
+  "output": "CMakeFiles/test7.dir/src/merchant.cpp.obj"
 },
 {
   "directory": "C:/OOP/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test6.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test6.dir\\src\\squirrel.cpp.obj -c C:\\OOP\\LAB6\\src\\squirrel.cpp",
-  "file": "C:/OOP/LAB6/src/squirrel.cpp",
-  "output": "CMakeFiles/test6.dir/src/squirrel.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\npc.cpp.obj -c C:\\OOP\\LAB7\\src\\npc.cpp",
+  "file": "C:/OOP/LAB7/src/npc.cpp",
+  "output": "CMakeFiles/test7.dir/src/npc.cpp.obj"
+},
+{
+  "directory": "C:/OOP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\observer.cpp.obj -c C:\\OOP\\LAB7\\src\\observer.cpp",
+  "file": "C:/OOP/LAB7/src/observer.cpp",
+  "output": "CMakeFiles/test7.dir/src/observer.cpp.obj"
+},
+{
+  "directory": "C:/OOP/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/test7.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\test7.dir\\src\\squirrel.cpp.obj -c C:\\OOP\\LAB7\\src\\squirrel.cpp",
+  "file": "C:/OOP/LAB7/src/squirrel.cpp",
+  "output": "CMakeFiles/test7.dir/src/squirrel.cpp.obj"
 },
 {
   "directory": "C:/OOP/build/googletest/googlemock",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\OOP\\LAB6\\googletest\\googlemock\\src\\gmock-all.cc",
-  "file": "C:/OOP/LAB6/googletest/googlemock/src/gmock-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\OOP\\LAB7\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/OOP/LAB7/googletest/googlemock/src/gmock-all.cc",
   "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
   "directory": "C:/OOP/build/googletest/googlemock",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\OOP\\LAB6\\googletest\\googlemock\\src\\gmock_main.cc",
-  "file": "C:/OOP/LAB6/googletest/googlemock/src/gmock_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\OOP\\LAB7\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/OOP/LAB7/googletest/googlemock/src/gmock_main.cc",
   "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
   "directory": "C:/OOP/build/googletest/googletest",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\OOP\\LAB6\\googletest\\googletest\\src\\gtest-all.cc",
-  "file": "C:/OOP/LAB6/googletest/googletest/src/gtest-all.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\OOP\\LAB7\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:/OOP/LAB7/googletest/googletest/src/gtest-all.cc",
   "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
   "directory": "C:/OOP/build/googletest/googletest",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\OOP\\LAB6\\googletest\\googletest\\src\\gtest_main.cc",
-  "file": "C:/OOP/LAB6/googletest/googletest/src/gtest_main.cc",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\OOP\\LAB7\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:/OOP/LAB7/googletest/googletest/src/gtest_main.cc",
   "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
 }
 ]
