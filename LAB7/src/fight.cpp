@@ -20,7 +20,7 @@ void FightManager::operator()() {
             {
                 std::lock_guard<std::shared_mutex> lock(mtx);
                 if (!events.empty()) {
-                    event = events.back();
+                    event = events.front();
                     events.pop();
                 }
             }

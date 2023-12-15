@@ -63,7 +63,7 @@ int main() {
                         }
                     }
                 }
-                std::this_thread::sleep_for(50ms);
+                std::this_thread::sleep_for(1s);
             } });
 
     int run_time{30};
