@@ -23,8 +23,8 @@ bool Knight::fight(std::shared_ptr<Knight> accepter) {
 
 bool Knight::fight(std::shared_ptr<Merchant> accepter) {
     if (this->get_energy() > accepter->get_energy()) {
-        accepter->must_die();
         notify_killed(accepter);
+        accepter->must_die();
         return true;
     }
     return false;

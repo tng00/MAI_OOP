@@ -100,7 +100,23 @@ int main() {
 
             std::cout << "Survived: " << survived << " | Killed: " << npc_num - survived << std::endl;
 
+            std::cout << "   ";
             for (size_t i = 0; i < grid; ++i) {
+                if (i < 10) {
+                    std::cout << "  " << i << " ";
+                } else {
+                    std::cout << " " << i << " ";
+                }
+            }
+            std::cout << std::endl;
+
+            for (size_t i = 0; i < grid; ++i) {
+                if (i < 10) {
+                    std::cout << i << "  ";
+                } else {
+                    std::cout << i << " ";
+                }
+
                 for (size_t j = 0; j < grid; ++j) {
                     std::string str = map[i][j];
                     if (str != "0") {

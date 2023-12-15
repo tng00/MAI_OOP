@@ -27,8 +27,8 @@ bool Merchant::fight(std::shared_ptr<Merchant> accepter) {
 
 bool Merchant::fight(std::shared_ptr<Squirrel> accepter) {
     if (this->get_energy() > accepter->get_energy()) {
-        accepter->must_die();
         notify_killed(accepter);
+        accepter->must_die();
         return true;
     }
     return false;
